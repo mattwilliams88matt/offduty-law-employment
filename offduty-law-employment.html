@@ -1,0 +1,372 @@
+<!doctype html>
+<html lang="en" class="h-full">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Off-Duty Security Careers</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&amp;family=Playfair+Display:wght@500;600;700&amp;display=swap" rel="stylesheet">
+  <style>
+    body {
+      box-sizing: border-box;
+    }
+    .font-display {
+      font-family: 'Playfair Display', Georgia, serif;
+    }
+    .font-body {
+      font-family: 'DM Sans', system-ui, sans-serif;
+    }
+    .gradient-text {
+      background: linear-gradient(135deg, #1e3a5f 0%, #2d5a87 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+    .card-hover {
+      transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    }
+    .card-hover:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 20px 40px -12px rgba(30, 58, 95, 0.15);
+    }
+    .table-row-hover:hover {
+      background-color: rgba(30, 58, 95, 0.04);
+    }
+    @keyframes fadeInUp {
+      from {
+        opacity: 0;
+        transform: translateY(20px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+    .animate-fade-in {
+      animation: fadeInUp 0.6s ease-out forwards;
+    }
+    .animate-delay-1 { animation-delay: 0.1s; opacity: 0; }
+    .animate-delay-2 { animation-delay: 0.2s; opacity: 0; }
+    .animate-delay-3 { animation-delay: 0.3s; opacity: 0; }
+    .animate-delay-4 { animation-delay: 0.4s; opacity: 0; }
+  </style>
+  <style>@view-transition { navigation: auto; }</style>
+  <script src="/_sdk/data_sdk.js" type="text/javascript"></script>
+  <script src="/_sdk/element_sdk.js" type="text/javascript"></script>
+ </head>
+ <body class="h-full font-body bg-slate-50 text-slate-800">
+  <div id="app-wrapper" class="w-full h-full overflow-auto"><!-- Hero Section -->
+   <header class="relative overflow-hidden" id="hero-section" style="background: linear-gradient(135deg, #0f172a 0%, #1e3a5f 50%, #1e40af 100%);">
+    <div class="absolute inset-0 opacity-10">
+     <svg width="100%" height="100%"><defs>
+       <pattern id="grid" width="40" height="40" patternunits="userSpaceOnUse">
+        <path d="M 40 0 L 0 0 0 40" fill="none" stroke="white" stroke-width="0.5" />
+       </pattern>
+      </defs> <rect width="100%" height="100%" fill="url(#grid)" />
+     </svg>
+    </div>
+    <div class="relative max-w-6xl mx-auto px-6 py-20 lg:py-28">
+     <div class="flex items-center gap-3 mb-6 animate-fade-in animate-delay-1">
+      <div class="w-12 h-12 rounded-lg bg-amber-500 flex items-center justify-center">
+       <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
+       </svg>
+      </div><span class="text-amber-400 font-semibold tracking-wide uppercase text-sm">Philadelphia Region • 2026</span>
+     </div>
+     <h1 id="hero-title" class="font-display text-4xl md:text-5xl lg:text-6xl text-white font-bold mb-6 animate-fade-in animate-delay-2 leading-tight">The Professional Pitch</h1>
+     <p id="hero-subtitle" class="text-xl md:text-2xl text-slate-300 max-w-3xl leading-relaxed animate-fade-in animate-delay-3">Premier Career Opportunities for Off-Duty Officers</p>
+     <div class="flex flex-wrap gap-4 mt-10 animate-fade-in animate-delay-4">
+      <div class="flex items-center gap-2 bg-white/10 backdrop-blur-sm rounded-full px-5 py-2.5">
+       <svg class="w-5 h-5 text-emerald-400" fill="currentColor" viewbox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+       </svg><span class="text-white font-medium">$80+/hr Potential</span>
+      </div>
+      <div class="flex items-center gap-2 bg-white/10 backdrop-blur-sm rounded-full px-5 py-2.5">
+       <svg class="w-5 h-5 text-emerald-400" fill="currentColor" viewbox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+       </svg><span class="text-white font-medium">Flexible Scheduling</span>
+      </div>
+      <div class="flex items-center gap-2 bg-white/10 backdrop-blur-sm rounded-full px-5 py-2.5">
+       <svg class="w-5 h-5 text-emerald-400" fill="currentColor" viewbox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+       </svg><span class="text-white font-medium">Career Advancement</span>
+      </div>
+     </div>
+    </div>
+   </header><!-- Value Proposition -->
+   <section class="py-16 px-6 bg-white border-b border-slate-200">
+    <div class="max-w-6xl mx-auto">
+     <div class="grid md:grid-cols-2 gap-12 items-center">
+      <div>
+       <p class="text-lg text-slate-600 leading-relaxed mb-6">Transitioning to high-level private security allows you to capitalize on your existing training while operating in controlled, professional environments. Unlike standard patrol, these roles focus on <strong class="text-slate-800">proactive risk mitigation</strong> for executives and high-value assets.</p>
+       <p class="text-lg text-slate-600 leading-relaxed">With rates frequently exceeding <strong class="text-slate-800">$80/hr</strong> in the Philadelphia region, this path offers a significant financial boost and a lower-stress alternative to municipal duties, all while maintaining the professional standards you've worked hard to establish.</p>
+      </div>
+      <div class="bg-gradient-to-br from-slate-50 to-slate-100 rounded-2xl p-8 border border-slate-200">
+       <div class="flex items-start gap-4">
+        <div class="w-12 h-12 rounded-xl bg-amber-500 flex items-center justify-center flex-shrink-0">
+         <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z" />
+         </svg>
+        </div>
+        <div>
+         <h3 class="font-display text-xl font-semibold text-slate-800 mb-2">Pro Tip</h3>
+         <p class="text-slate-600"><strong>Act 235 Certification</strong> and your ability to handle de-escalation in high-pressure environments significantly reduces the client's liability—making you a premium hire.</p>
+        </div>
+       </div>
+      </div>
+     </div>
+    </div>
+   </section><!-- Career Strategy Section -->
+   <section class="py-16 px-6 bg-slate-50">
+    <div class="max-w-6xl mx-auto">
+     <div class="text-center mb-12">
+      <h2 id="strategy-title" class="font-display text-3xl md:text-4xl font-bold gradient-text mb-4">Career Path Strategy</h2>
+      <p class="text-slate-600 text-lg max-w-2xl mx-auto">For off-duty officers, these aren't just "gigs"—they are strategic career extensions that pay premium rates.</p>
+     </div>
+     <div class="grid md:grid-cols-3 gap-6">
+      <div class="card-hover bg-white rounded-2xl p-8 border border-slate-200 shadow-sm">
+       <div class="w-14 h-14 rounded-xl bg-blue-900 flex items-center justify-center mb-5">
+        <svg class="w-7 h-7 text-white" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+        </svg>
+       </div>
+       <h3 class="font-display text-xl font-semibold text-slate-800 mb-3">Academy Training</h3>
+       <p class="text-slate-600">Your judgment and legal knowledge from academy training commands premium rates in private security.</p>
+      </div>
+      <div class="card-hover bg-white rounded-2xl p-8 border border-slate-200 shadow-sm">
+       <div class="w-14 h-14 rounded-xl bg-blue-900 flex items-center justify-center mb-5">
+        <svg class="w-7 h-7 text-white" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6" />
+        </svg>
+       </div>
+       <h3 class="font-display text-xl font-semibold text-slate-800 mb-3">Street Experience</h3>
+       <p class="text-slate-600">Real-world experience in high-pressure situations is invaluable for executive protection roles.</p>
+      </div>
+      <div class="card-hover bg-white rounded-2xl p-8 border border-slate-200 shadow-sm">
+       <div class="w-14 h-14 rounded-xl bg-blue-900 flex items-center justify-center mb-5">
+        <svg class="w-7 h-7 text-white" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+        </svg>
+       </div>
+       <h3 class="font-display text-xl font-semibold text-slate-800 mb-3">Premium Rates</h3>
+       <p class="text-slate-600">Close Protection and Contract Detention roles specifically require your specialized background.</p>
+      </div>
+     </div>
+    </div>
+   </section><!-- Strategic Platforms -->
+   <section class="py-16 px-6 bg-white">
+    <div class="max-w-6xl mx-auto">
+     <h2 id="platforms-title" class="font-display text-3xl md:text-4xl font-bold gradient-text mb-10 text-center">Strategic Job Platforms</h2>
+     <div class="grid md:grid-cols-2 gap-6"><a href="https://www.asisonline.org/careers/" target="_blank" rel="noopener noreferrer" class="card-hover group bg-gradient-to-br from-slate-800 to-slate-900 rounded-2xl p-6 text-white">
+       <div class="flex items-start justify-between">
+        <div><span class="inline-block px-3 py-1 bg-amber-500 text-white text-xs font-semibold rounded-full mb-4">Gold Standard</span>
+         <h3 class="font-display text-xl font-semibold mb-2">ASIS International Career HQ</h3>
+         <p class="text-slate-300 text-sm">The gold standard for corporate security positions.</p>
+        </div>
+        <svg class="w-5 h-5 text-slate-400 group-hover:text-amber-400 transition-colors" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+        </svg>
+       </div></a> <a href="https://www.officerreports.com" target="_blank" rel="noopener noreferrer" class="card-hover group bg-white rounded-2xl p-6 border-2 border-slate-200 hover:border-blue-900">
+       <div class="flex items-start justify-between">
+        <div>
+         <h3 class="font-display text-xl font-semibold text-slate-800 mb-2">OfficerReports</h3>
+         <p class="text-slate-600 text-sm">Focused on security industry and professional reporting standards.</p>
+        </div>
+        <svg class="w-5 h-5 text-slate-400 group-hover:text-blue-900 transition-colors" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+        </svg>
+       </div></a> <a href="https://www.phillypolice.com/assets/directives/D8.7-SecondaryEmployment.pdf" target="_blank" rel="noopener noreferrer" class="card-hover group bg-white rounded-2xl p-6 border-2 border-slate-200 hover:border-blue-900">
+       <div class="flex items-start justify-between">
+        <div><span class="inline-block px-3 py-1 bg-red-100 text-red-700 text-xs font-semibold rounded-full mb-4">Essential</span>
+         <h3 class="font-display text-xl font-semibold text-slate-800 mb-2">PPD Directive 8.7 Portal</h3>
+         <p class="text-slate-600 text-sm">Check compliance with secondary employment before applying.</p>
+        </div>
+        <svg class="w-5 h-5 text-slate-400 group-hover:text-blue-900 transition-colors" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+        </svg>
+       </div></a> <a href="https://www.clearancejobs.com" target="_blank" rel="noopener noreferrer" class="card-hover group bg-white rounded-2xl p-6 border-2 border-slate-200 hover:border-blue-900">
+       <div class="flex items-start justify-between">
+        <div>
+         <h3 class="font-display text-xl font-semibold text-slate-800 mb-2">ClearanceJobs</h3>
+         <p class="text-slate-600 text-sm">For roles requiring Top Secret clearances held by federal or military-police officers.</p>
+        </div>
+        <svg class="w-5 h-5 text-slate-400 group-hover:text-blue-900 transition-colors" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+        </svg>
+       </div></a>
+     </div>
+    </div>
+   </section><!-- Executive Roles Table -->
+   <section class="py-16 px-6 bg-slate-50">
+    <div class="max-w-6xl mx-auto">
+     <div class="flex items-center gap-4 mb-10">
+      <div class="w-12 h-12 rounded-xl bg-blue-900 flex items-center justify-center">
+       <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2 2v2m4 6h.01M5 20h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+       </svg>
+      </div>
+      <div>
+       <h2 id="executive-title" class="font-display text-3xl font-bold text-slate-800">Executive &amp; Corporate Protection</h2>
+       <p class="text-slate-600">Highest pay and most professional environments</p>
+      </div>
+     </div>
+     <div class="bg-white rounded-2xl border border-slate-200 shadow-sm overflow-hidden">
+      <div class="overflow-x-auto">
+       <table class="w-full">
+        <thead>
+         <tr class="bg-slate-800 text-white">
+          <th class="text-left px-6 py-4 font-semibold">Role</th>
+          <th class="text-left px-6 py-4 font-semibold">Company</th>
+          <th class="text-left px-6 py-4 font-semibold">Location</th>
+          <th class="text-left px-6 py-4 font-semibold">Pay Range</th>
+          <th class="text-center px-6 py-4 font-semibold">Confidence</th>
+         </tr>
+        </thead>
+        <tbody class="divide-y divide-slate-100">
+         <tr class="table-row-hover transition-colors">
+          <td class="px-6 py-4 font-medium text-slate-800">Executive Protection Specialist</td>
+          <td class="px-6 py-4 text-slate-600">U.S. Security Care</td>
+          <td class="px-6 py-4 text-slate-600">Philadelphia, PA</td>
+          <td class="px-6 py-4"><span class="font-semibold text-emerald-600">$50 - $60/hr</span></td>
+          <td class="px-6 py-4 text-center"><span class="inline-flex items-center px-2.5 py-1 rounded-full text-xs font-medium bg-emerald-100 text-emerald-700">95%</span></td>
+         </tr>
+         <tr class="table-row-hover transition-colors">
+          <td class="px-6 py-4 font-medium text-slate-800">Corporate Security Contractor</td>
+          <td class="px-6 py-4 text-slate-600">Convoy Group</td>
+          <td class="px-6 py-4 text-slate-600">Philadelphia, PA</td>
+          <td class="px-6 py-4"><span class="font-semibold text-emerald-600">$40 - $50/hr</span></td>
+          <td class="px-6 py-4 text-center"><span class="inline-flex items-center px-2.5 py-1 rounded-full text-xs font-medium bg-emerald-100 text-emerald-700">90%</span></td>
+         </tr>
+         <tr class="table-row-hover transition-colors">
+          <td class="px-6 py-4 font-medium text-slate-800">Off Duty Officer (ODO)</td>
+          <td class="px-6 py-4 text-slate-600">Security Industry Specialists</td>
+          <td class="px-6 py-4 text-slate-600">Philadelphia, PA</td>
+          <td class="px-6 py-4"><span class="font-semibold text-emerald-600">$40 - $45/hr</span></td>
+          <td class="px-6 py-4 text-center"><span class="inline-flex items-center px-2.5 py-1 rounded-full text-xs font-medium bg-emerald-100 text-emerald-700">98%</span></td>
+         </tr>
+         <tr class="table-row-hover transition-colors">
+          <td class="px-6 py-4 font-medium text-slate-800">Armed Protective Officer</td>
+          <td class="px-6 py-4 text-slate-600">GXC Inc.</td>
+          <td class="px-6 py-4 text-slate-600">New Castle/Philly Area</td>
+          <td class="px-6 py-4"><span class="font-semibold text-emerald-600">$27.82 - $33.84/hr</span></td>
+          <td class="px-6 py-4 text-center"><span class="inline-flex items-center px-2.5 py-1 rounded-full text-xs font-medium bg-amber-100 text-amber-700">85%</span></td>
+         </tr>
+         <tr class="table-row-hover transition-colors">
+          <td class="px-6 py-4 font-medium text-slate-800">Retail Off Duty Officer</td>
+          <td class="px-6 py-4 text-slate-600">SIS (Ardmore Detail)</td>
+          <td class="px-6 py-4 text-slate-600">Ardmore, PA</td>
+          <td class="px-6 py-4"><span class="font-semibold text-emerald-600">$40/hr</span></td>
+          <td class="px-6 py-4 text-center"><span class="inline-flex items-center px-2.5 py-1 rounded-full text-xs font-medium bg-emerald-100 text-emerald-700">98%</span></td>
+         </tr>
+        </tbody>
+       </table>
+      </div>
+     </div><!-- Contact Cards -->
+     <div class="mt-8 grid md:grid-cols-2 gap-4">
+      <div class="bg-white rounded-xl p-5 border border-slate-200">
+       <h4 class="font-semibold text-slate-800 mb-3">U.S. Security Care</h4>
+       <p class="text-sm text-slate-600 mb-2">📞 (215) 542-1977</p><a href="https://www.ussecuritycare.com/careers" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-1 text-blue-600 hover:text-blue-800 text-sm font-medium"> Apply Now
+        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewbox="0 0 24 24">
+         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+        </svg></a>
+      </div>
+      <div class="bg-white rounded-xl p-5 border border-slate-200">
+       <h4 class="font-semibold text-slate-800 mb-3">Convoy Group</h4>
+       <p class="text-sm text-slate-600 mb-2">✉️ info@convoygroup.com</p><a href="https://www.convoygroup.com/careers" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-1 text-blue-600 hover:text-blue-800 text-sm font-medium"> Apply Now
+        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewbox="0 0 24 24">
+         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+        </svg></a>
+      </div>
+      <div class="bg-white rounded-xl p-5 border border-slate-200">
+       <h4 class="font-semibold text-slate-800 mb-3">Security Industry Specialists</h4>
+       <p class="text-sm text-slate-600 mb-2">📞 (800) 201-3742</p><a href="https://www.sis.us/careers" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-1 text-blue-600 hover:text-blue-800 text-sm font-medium"> Apply Now
+        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewbox="0 0 24 24">
+         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+        </svg></a>
+      </div>
+      <div class="bg-white rounded-xl p-5 border border-slate-200">
+       <h4 class="font-semibold text-slate-800 mb-3">GXC Inc.</h4>
+       <p class="text-sm text-slate-600 mb-2">HR Compliance Officer</p><a href="https://www.gxcinc.com/careers" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-1 text-blue-600 hover:text-blue-800 text-sm font-medium"> Apply Now
+        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewbox="0 0 24 24">
+         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+        </svg></a>
+      </div>
+     </div>
+    </div>
+   </section><!-- Specialized Roles -->
+   <section class="py-16 px-6 bg-white">
+    <div class="max-w-6xl mx-auto">
+     <div class="flex items-center gap-4 mb-10">
+      <div class="w-12 h-12 rounded-xl bg-amber-500 flex items-center justify-center">
+       <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" />
+       </svg>
+      </div>
+      <div>
+       <h2 id="specialized-title" class="font-display text-3xl font-bold text-slate-800">Specialized Institutional &amp; Armed Roles</h2>
+       <p class="text-slate-600">Healthcare, financial institutions, and major retail hubs</p>
+      </div>
+     </div>
+     <div class="grid md:grid-cols-3 gap-6"><!-- Lincoln Financial Field -->
+      <div class="card-hover bg-gradient-to-br from-slate-50 to-white rounded-2xl border border-slate-200 overflow-hidden">
+       <div class="h-3 bg-gradient-to-r from-blue-900 to-slate-800"></div>
+       <div class="p-6">
+        <div class="flex items-center gap-2 mb-4"><span class="inline-flex items-center px-2.5 py-1 rounded-full text-xs font-medium bg-emerald-100 text-emerald-700">95% Confidence</span>
+        </div>
+        <h3 class="font-display text-xl font-semibold text-slate-800 mb-2">Security Officer (Armed)</h3>
+        <p class="text-slate-600 text-sm mb-4">Lincoln Financial Field</p>
+        <div class="flex items-center gap-2 mb-4">
+         <svg class="w-5 h-5 text-emerald-500" fill="currentColor" viewbox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+         </svg><span class="font-bold text-emerald-600 text-lg">$36.50/hr</span>
+        </div>
+        <p class="text-xs text-slate-500 mb-4">📍 1 Lincoln Financial Field Way, Philadelphia, PA 19148</p><a href="https://www.aus.com/careers" target="_blank" rel="noopener noreferrer" class="w-full inline-flex items-center justify-center gap-2 bg-blue-900 hover:bg-blue-800 text-white font-medium py-2.5 px-4 rounded-lg transition-colors"> Apply via Allied Universal
+         <svg class="w-4 h-4" fill="none" stroke="currentColor" viewbox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+         </svg></a>
+       </div>
+      </div><!-- King of Prussia Retail -->
+      <div class="card-hover bg-gradient-to-br from-slate-50 to-white rounded-2xl border border-slate-200 overflow-hidden">
+       <div class="h-3 bg-gradient-to-r from-amber-500 to-amber-400"></div>
+       <div class="p-6">
+        <div class="flex items-center gap-2 mb-4"><span class="inline-flex items-center px-2.5 py-1 rounded-full text-xs font-medium bg-emerald-100 text-emerald-700">90% Confidence</span>
+        </div>
+        <h3 class="font-display text-xl font-semibold text-slate-800 mb-2">Armed Security - High-End Retail</h3>
+        <p class="text-slate-600 text-sm mb-4">King of Prussia</p>
+        <div class="flex items-center gap-2 mb-4">
+         <svg class="w-5 h-5 text-emerald-500" fill="currentColor" viewbox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+         </svg><span class="font-bold text-emerald-600 text-lg">$35.00/hr</span>
+        </div>
+        <p class="text-xs text-slate-500 mb-4">✨ One-hour paid meal breaks included</p><a href="https://www.easternsecuritycorp.com/careers" target="_blank" rel="noopener noreferrer" class="w-full inline-flex items-center justify-center gap-2 bg-blue-900 hover:bg-blue-800 text-white font-medium py-2.5 px-4 rounded-lg transition-colors"> Apply via Eastern Security
+         <svg class="w-4 h-4" fill="none" stroke="currentColor" viewbox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+         </svg></a>
+       </div>
+      </div><!-- Hospital Security -->
+      <div class="card-hover bg-gradient-to-br from-slate-50 to-white rounded-2xl border border-slate-200 overflow-hidden">
+       <div class="h-3 bg-gradient-to-r from-emerald-500 to-teal-500"></div>
+       <div class="p-6">
+        <div class="flex items-center gap-2 mb-4"><span class="inline-flex items-center px-2.5 py-1 rounded-full text-xs font-medium bg-amber-100 text-amber-700">85% Confidence</span>
+        </div>
+        <h3 class="font-display text-xl font-semibold text-slate-800 mb-2">Hospital Security</h3>
+        <p class="text-slate-600 text-sm mb-4">Temple Health / Penn Medicine</p>
+        <div class="flex items-center gap-2 mb-4">
+         <svg class="w-5 h-5 text-emerald-500" fill="currentColor" viewbox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+         </svg><span class="font-bold text-emerald-600 text-lg">$25 - $40/hr</span>
+        </div>
+        <p class="text-xs text-slate-500 mb-4">📍 3401 Broad St, Philadelphia, PA 19140</p><a href="https://www.templehealth.org/careers" target="_blank" rel="noopener noreferrer" class="w-full inline-flex items-center justify-center gap-2 bg-blue-900 hover:bg-blue-800 text-white font-medium py-2.5 px-4 rounded-lg transition-colors"> Apply via Health System HR
+         <svg class="w-4 h-4" fill="none" stroke="currentColor" viewbox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+         </svg></a>
+       </div>
+      </div>
+     </div>
+    </div>
+   </section><!-- Footer -->
+   <footer class="bg-slate-900 text-white py-12 px-6">
+    <div class="max-w-6xl mx-auto">
+     <div class="flex flex-col md:flex-row items-center justify-between gap-6">
+      <div class="flex items-center gap-3">
+       <div class="w-10 h-10 rounded-lg bg-amber-500 flex items-center justify-center">
+        <svg class="w-5 h-5 text-white" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
+        </svg>
+       </div>
+       <div>
+        <p class="font-display font-semibold">Off-Duty Security Careers</p>
+        <p class="text-slate-400 text-sm">Philadelphia Region • 2026 Analysis</p>
+       </div>
+      </div>
+      <p class="text-slate-400 text-sm text-center md:text-right">Always verify compliance with PPD Directive 8.7 before accepting secondary employment.</p>
+     </div>
+    </div>
+   </footer>
+  </div>
+ <script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'9cc49658f58fefa1',t:'MTc3MDgyMDY3OC4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+</html>
